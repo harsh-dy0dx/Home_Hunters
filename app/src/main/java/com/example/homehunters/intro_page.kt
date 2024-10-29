@@ -30,6 +30,7 @@ import androidx.compose.ui.unit.sp
 import com.example.homehunters.ui.theme.HomeHuntersTheme
 import com.example.homehunters.ui.theme.myWhite
 import com.example.homehunters.ui.theme.myblue
+import kotlin.concurrent.thread
 
 class intro_page : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
